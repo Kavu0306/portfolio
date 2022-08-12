@@ -85,8 +85,14 @@ let resumeData = {
     {
       skillname: "Nodejs",
     },
+    {
+      skillname: "Express",
+    },
+    {
+      skillname: "Figma",
+    },
   ],
-  portfolio: [],
+  portfolio: [{}],
 };
 
 export default resumeData;

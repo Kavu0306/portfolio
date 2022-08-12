@@ -1,12 +1,5 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
+   /* a. General Styles
    b. Header Styles
    c. About Section
    d. Resume Section
@@ -14,19 +7,13 @@
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
-   i. Footer
+   i. Footer */
 
-===================================================================== */
 
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
 
-/* ------------------------------------------------------------------ */
-/* b. Header Styles
-/* ------------------------------------------------------------------ */
+/* header style */
 
 header {
    position: relative;
@@ -52,7 +39,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -162,7 +149,7 @@ ul#nav li {
 /* Links */
 ul#nav li a {
 
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
 
    display: inline-block;
    padding: 8px 13px;
@@ -178,8 +165,8 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li a{ color: #F06000; }
+ 
 
 
 /* ------------------------------------------------------------------ */
@@ -205,12 +192,13 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
+/* to be added later in about seesion. kavu has to align in left pic is in doc in kaviya folder in pc */
+/* #about .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 100%;
-}
+   border-radius: 100%; */
+/* } */
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -370,6 +358,16 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: Nodejs 2s ease;
    -webkit-animation: Nodejs 2s ease;
 }
+.express{
+   width: 60%;
+   -moz-animation: express 2s ease;
+   -webkit-animation: express 2s ease;
+}
+.figma{
+   width: 80%;
+   -moz-animation: express 2s ease;
+   -webkit-animation: express 2s ease;
+}
 
 @-moz-keyframes REACTJS {
   0%   { width: 0px;  }
@@ -407,6 +405,15 @@ ul#nav li.current a { color: #F06000; }
    0%   { width: 0px;  }
    100% { width: 50%;  }
  }
+ @-moz-keyframes Express{
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes Figma{
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+
 
 
 @-webkit-keyframes REACTJS{
@@ -445,6 +452,15 @@ ul#nav li.current a { color: #F06000; }
    0%   { width: 0px;  }
    100% { width: 50%;  }
  }
+ @-webkit-keyframes Express {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes Figma {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -551,76 +567,6 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
-/* popup modal */
-.popup-modal {
-	max-width: 550px;
-	background: #fff;
-	position: relative;
-	margin: 0 auto;
-}
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
-	margin-bottom: 12px;
-   color: #111;
-}
-.popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
-   margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   display: block;
-   text-align: left;
-}
-.popup-modal .description-box .categories i {
-   margin-right: 8px;
-}
-.popup-modal .link-box {
-   padding: 18px 36px;
-   background: #111;
-   text-align: left;
-}
-.popup-modal .link-box a {
-   color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-   letter-spacing: 3px;
-   cursor: pointer;
-}
-.popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
-
-
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
-
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
-   opacity: 0;
-   -webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	-ms-transition: all 200ms ease-in-out;
-   transition: all 200ms ease-in-out;
-}
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-   opacity: 1;
-}
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-   opacity: 0;
-}
-
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
 #call-to-action {
    background: #212121;
    padding-top: 66px;
@@ -658,12 +604,6 @@ ul#nav li.current a { color: #F06000; }
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -674,9 +614,6 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
 
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
@@ -749,7 +686,7 @@ call-to-action .button {
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
 .slides li { margin: 0; padding: 0;}
 
-/* Necessary Styles */
+/* My Styles */
 .flexslider {
    position: relative;
    zoom: 1;
@@ -759,12 +696,11 @@ call-to-action .button {
 .flexslider .slides { zoom: 1; }
 .flexslider .slides > li { position: relative; }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
+
 .flex-container { zoom: 1; position: relative; }
 
-/* Clearfix for .slides */
+
 .slides:before,
 .slides:after {
    content: " ";
@@ -774,19 +710,16 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
 .no-js .slides > li:first-child { display: block; }
 
-/* Slider Styles */
+
 .slides { zoom: 1; }
 .slides > li {
-   /*margin-right: 5px; */
+  
    overflow: hidden;
 }
 
-/* Control Nav */
+
 .flex-control-nav {
     width: 100%;
     position: absolute;
@@ -823,9 +756,9 @@ call-to-action .button {
     cursor: default;
 }
 
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
+
+ /* h. Contact Section */
+
 
 #contact {
    background: #191919;
@@ -960,9 +893,7 @@ call-to-action .button {
 }
 
 
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
+/* footer */
 
 footer {
    padding-top: 48px;
@@ -975,30 +906,6 @@ footer {
 
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
-
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
 
 /* social links */
 footer .social-links {
