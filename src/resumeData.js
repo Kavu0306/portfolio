@@ -5,7 +5,7 @@ let resumeData = {
   emailid: "kaviyaradha2000@gmail.com",
 
   roleDescription:
-    "I would like to play around as full stack developing but most likely on front end developing and also keen to learn about new technologies.",
+    "A positive, enthusiastic full stack developer and built up a diverse range of skills, qualities and attributes that guarantee I will perform more efficiently in this role. I believe learning is the key to success",
   socialLinks: [
     {
       name: "linkedin",
