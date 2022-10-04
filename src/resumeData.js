@@ -92,7 +92,15 @@ let resumeData = {
       skillname: "Figma",
     },
   ],
-  portfolio: [{}],
+  portfolio: [
+    {
+      img: "",
+      imgurl: "https://bookstore-black.vercel.app/",
+      name: "Bookstore",
+      description:
+        "This simple crud-op allows user to add update and delete books. Also allows the user to search for specific book",
+    },
+  ],
 };
 
 export default resumeData;

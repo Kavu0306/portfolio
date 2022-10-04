@@ -519,7 +519,7 @@ ul#nav li a{ color: #F06000; }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #fff;
+   color: rgb(233, 229, 229);
    height: 30px;
    width: 30px;
    font-size: 18px;
@@ -544,15 +544,14 @@ ul#nav li a{ color: #F06000; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 5px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: rgb(247, 241, 241);
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
-   margin-bottom: 0;
+   color: #9c589c;
 }
 
 /* on hover */
@@ -606,12 +605,12 @@ ul#nav li a{ color: #F06000; }
 }
 #call-to-action .button:hover,
 #call-to-action .button:active {
-   background: #FFFFFF;
+   background: #fdfbfb;
    color: #0D0D0D;
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif; 
-	color: #D8D8D8;
+	color: #faf8f8;
 }
 /* testimonials checked for appearence it has to added later on */
 
