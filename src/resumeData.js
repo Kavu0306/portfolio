@@ -100,6 +100,13 @@ let resumeData = {
       description:
         "This simple crud-op allows user to add update and delete books. Also allows the user to search for specific book",
     },
+    {
+      img: "",
+      imgurl: "https://chatapp-kavu0306.vercel.app/",
+      name: "ChatApplication",
+      description:
+        "This is the sample chat application. to use this user has to open the two port ways and login through same join code. socket.io has been implemented",
+    },
   ],
 };
 
