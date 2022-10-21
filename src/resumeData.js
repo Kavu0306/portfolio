@@ -107,6 +107,13 @@ let resumeData = {
       description:
         "This is the sample chat application. to use this user has to open the two port ways and login through same join code. socket.io has been implemented",
     },
+    {
+      img: "",
+      imgurl: "https://bookmyshow-frontend-delta.vercel.app/",
+      name: "Bookmyshow",
+      description:
+        "This is the sample ticket booking application. it has register login page and has both admin and user setup.",
+    },
   ],
 };
 
