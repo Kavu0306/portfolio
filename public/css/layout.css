@@ -318,6 +318,11 @@ ul#nav li a{ color: #F06000; }
   	-moz-animation: REACTJS 2s ease;
   	-webkit-animation: REACTJS 2s ease;
 }
+.redux-toolkit{
+   width: 80%;
+   -moz-animation: redux-toolkit 2s ease;
+   -webkit-animation: redux-toolkit 2s ease;
+}
 .javascript {
   	width: 55%;
   	-moz-animation: javascript 2s ease;
@@ -373,6 +378,10 @@ ul#nav li a{ color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+@-moz-keyframes redux-toolkit {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
 @-moz-keyframes javascript{
   0%   { width: 0px;  }
   100% { width: 55%;  }
@@ -420,6 +429,10 @@ ul#nav li a{ color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+@-webkit-keyframes redux-toolkit{
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
 @-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 55%;  }
@@ -483,7 +496,7 @@ ul#nav li a{ color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: rgb(10, 10, 10);
+   background: rgb(243, 77, 12);
    overflow: hidden;
    position: relative;
 

@@ -68,6 +68,9 @@ let resumeData = {
       skillname: "REACTJS",
     },
     {
+      skillname: "Redux-toolkit",
+    },
+    {
       skillname: "javascript",
     },
     {
