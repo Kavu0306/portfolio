@@ -6,23 +6,23 @@ let resumeData = {
 
   roleDescription:
     "A positive, enthusiastic full stack developer and built up a diverse range of skills, qualities and attributes that guarantee I will perform more efficiently in this role. I believe learning is the key to success",
-  socialLinks: [
-    {
-      name: "linkedin",
-      url: "https://www.linkedin.com/in/kaviya-radhakrishnan-0414b4149/",
-      className: "fa fa-linkedin",
-    },
-    {
-      name: "github",
-      url: "https://github.com/Kavu0306",
-      className: "fa fa-github",
-    },
-    {
-      name: "facebook",
-      url: "https://www.facebook.com/profile.php?id=100010743696061",
-      className: "fa fa-facebook",
-    },
-  ],
+  // socialLinks: [
+  //   {
+  //     name: "linkedin",
+  //     url: "https://www.linkedin.com/in/kaviya-radhakrishnan-0414b4149/",
+  //     className: "fa fa-linkedin",
+  //   },
+  //   {
+  //     name: "github",
+  //     url: "https://github.com/Kavu0306",
+  //     className: "fa fa-github",
+  //   },
+  //   {
+  //     name: "facebook",
+  //     url: "https://www.facebook.com/profile.php?id=100010743696061",
+  //     className: "fa fa-facebook",
+  //   },
+  // ],
   aboutme:
     "I have been in a medical profession as emergency paramedic but through passion on coding i learned full stack development, with only 4 months if i have developed my skill to this level, for damn sure i could learn and grab anything soon.",
   address: "India",
@@ -116,6 +116,17 @@ let resumeData = {
       name: "Bookmyshow",
       description:
         "This is the sample ticket booking application. it has register login page and has both admin and user setup.",
+    },
+  ],
+  tools: [
+    {
+      name: "Netlify",
+    },
+    {
+      name: "Vercel",
+    },
+    {
+      name: "Heroku",
     },
   ],
 };

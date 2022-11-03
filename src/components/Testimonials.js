@@ -8,14 +8,14 @@ export default class Testimonials extends Component {
           <div className="row">
             <div className="two columns header-col">
               <h1>
-                <span>Client Testimonials</span>
+                <span>Tools Used</span>
               </h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
-                  {resumeData.testimonials &&
-                    resumeData.testimonials.map((item) => {
+                  {resumeData.tools &&
+                    resumeData.tools.map((item) => {
                       return (
                         <li>
                           <blockquote>

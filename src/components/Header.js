@@ -2,6 +2,11 @@ import React, { Component } from "react";
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    function handleresume() {
+      window.open(
+        "https://drive.google.com/file/d/1vSBqV89GVclUAXbzwh4dRhfsCvcWo832/view?usp=drivesdk"
+      );
+    }
     return (
       <React.Fragment>
         <header id="home">
@@ -49,6 +54,15 @@ export default class Header extends Component {
                 I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
               <hr />
+              {/* <button
+                className="top-resume"
+                onClick="window.open('https://drive.google.com/file/d/1vSBqV89GVclUAXbzwh4dRhfsCvcWo832/view?usp=drivesdk','_blank')"
+              >
+                RESUME
+              </button> */}
+              <a href="https://drive.google.com/file/d/1hsiySqb4eAIaZQM_sc72ZfCNmg67FHjt/view?usp=share_link">
+                <button className="top-resume">Resume</button>
+              </a>
               <ul className="social">
                 {resumeData.socialLinks &&
                   resumeData.socialLinks.map((item) => {
