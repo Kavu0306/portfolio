@@ -2,11 +2,6 @@ import React, { Component } from "react";
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    function handleresume() {
-      window.open(
-        "https://drive.google.com/file/d/1vSBqV89GVclUAXbzwh4dRhfsCvcWo832/view?usp=drivesdk"
-      );
-    }
     return (
       <React.Fragment>
         <header id="home">
