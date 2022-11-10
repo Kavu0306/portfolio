@@ -55,7 +55,10 @@ export default class Header extends Component {
               >
                 RESUME
               </button> */}
-              <a href="https://drive.google.com/file/d/1hsiySqb4eAIaZQM_sc72ZfCNmg67FHjt/view?usp=share_link">
+              <a
+                href="https://drive.google.com/file/d/1hsiySqb4eAIaZQM_sc72ZfCNmg67FHjt/view?usp=share_link"
+                target="_blank"
+              >
                 <button className="top-resume">Resume</button>
               </a>
               <ul className="social">
